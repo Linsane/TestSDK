@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.ios.deployment_target = '9.0'
   spec.source_files  = "MediatorSDK/**/*.{h,m}"
-  spec.resources =  "MediatorSDK/Info/CoreIMap.plist"
+  spec.resources =  "MediatorSDK/Assets/CoreIMap.plist"
   spec.frameworks = 'UIKit', 'Foundation'	#所需的framework,多个用逗号隔开
 
 end
